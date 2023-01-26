@@ -1,9 +1,11 @@
 class CartsController < ApplicationController
 
   def show
-    if (cart.length == 0)
-      redirect_to root_path
-    end
+    # if (cart.length == 0)
+    #   redirect_to root_path
+    # end
+    puts params
+    puts cart.length
   end
 
   def add_item
