@@ -111,3 +111,22 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.table {
+  h1 {
+    margin: 0;
+    padding: 0.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 130, 29, 0.7);
+    font-weight: 700;
+    font-family: "Montserrat";
+    span {
+      font-size: 0.8em;
+    }
+    span:last-of-type {
+      font-size: 0.5em;
+    }
+  }
+}

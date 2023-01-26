@@ -11,7 +11,9 @@
     <%= product.category.name %>
   </td>
   <td>
-    <%= product.price %>
+    <h1>
+      <span><%= humanized_money_with_symbol product.price %></span>
+    </h1>
   </td>
   <td>
     <%= product.quantity %>
