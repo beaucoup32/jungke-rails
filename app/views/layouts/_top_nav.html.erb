@@ -6,6 +6,7 @@
     <h2>Where you can find any plants!</h2>
   </section>
 </header>
+
 <nav class="navbar navbar-expand-lg navbar-dark sticky-nav">
   <div class="container">
     <a class="navbar-brand" href="<%= root_path %>">Jungle</a>
@@ -22,19 +23,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <%# <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          > %>
-            <%# Categories %>
-          <%# </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown"> %>
-            <% Category.all.each do |category| %>
+      <%# <li class="nav-item dropdown">
+      <a
+      class="nav-link dropdown-toggle"
+        href="#"
+        id="navbarDropdown"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        > %>
+        <%# Categories %>
+        <%# </a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown"> %>
+          <li class="nav-item">
+            <%= link_to "About Us", about_index_path, class: "nav-link" %>
+          </li>
+        <% Category.all.each do |category| %>
             <li class="nav-item">
               <%= link_to category.name, category, class: "nav-link" %>
             </li>
