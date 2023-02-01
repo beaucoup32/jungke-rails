@@ -3,6 +3,9 @@
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
 ## Screenshots
+!["Screenshot of Homepage"](https://github.com/beaucoup32/jungle-rails/blob/main/docs/homepage.png)
+!["Screenshot of My Cart"](https://github.com/beaucoup32/jungle-rails/blob/main/docs/my_cart.png)
+!["Screenshot of Plant Categories Page"](https://github.com/beaucoup32/jungle-rails/blob/main/docs/plant_categories.png)
 
 ## Setup
 
